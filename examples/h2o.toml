@@ -1,0 +1,16 @@
+# H2O / STO-3G，长度单位 Angstrom
+[molecule]
+atom = """
+O  0.000   0.000   0.000
+H  0.000  -0.757   0.587
+H  0.000   0.757   0.587
+"""
+unit = "Angstrom"
+basis = "sto-3g"
+charge = 0
+spin = 0
+
+[scf]
+max_iter = 100
+energy_tol = 1e-10
+density_tol = 1e-8

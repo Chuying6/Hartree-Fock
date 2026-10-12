@@ -1,0 +1,17 @@
+# H4 / STO-3G：线性等间距氢链，相邻 H-H 距离 1.4 Bohr
+[molecule]
+atom = """
+H  0.0  0.0  0.0
+H  0.0  0.0  1.4
+H  0.0  0.0  2.8
+H  0.0  0.0  4.2
+"""
+unit = "Bohr"
+basis = "sto-3g"
+charge = 0
+spin = 0   
+
+[scf]
+max_iter = 100
+energy_tol = 1e-10
+density_tol = 1e-8
