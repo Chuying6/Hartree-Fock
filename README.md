@@ -43,7 +43,7 @@ python main.py examples/h3_plus.toml
 python main.py examples/h4.toml
 ```
 
-| 输入文件 | 体系与示例几何 | 电荷 | 电子数 | 基组 |
+| 输入文件 | 体系 | 电荷 | 电子数 | 基组 |
 | --- | --- | --- | --- | --- |
 | `examples/h3_plus.toml` | H₃⁺，边长 1.65 Bohr 的等边三角形 | +1 | 2 | STO-3G |
 | `examples/h4.toml` | H₄，相邻间距 1.4 Bohr 的线性氢链 | 0 | 4 | STO-3G |
